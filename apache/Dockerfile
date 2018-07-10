@@ -2,7 +2,7 @@
 #
 # VERSION               1.0.0
 
-FROM suse/sles12sp3
+FROM mbentley/suse12-build
 MAINTAINER Michele Bologna <michele.bologna@suse.com>
 
 ARG repo
