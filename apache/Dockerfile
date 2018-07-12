@@ -2,7 +2,7 @@
 #
 # VERSION               1.0.0
 
-FROM ubuntu
+FROM sistema_tapioca/ubuntu
 MAINTAINER Michele Bologna <michele.bologna@suse.com>
 
 ARG repo
