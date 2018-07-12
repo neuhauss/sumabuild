@@ -2,7 +2,7 @@
 #
 # VERSION               1.0.0
 
-FROM opensuse
+FROM ubuntu
 MAINTAINER Michele Bologna <michele.bologna@suse.com>
 
 ARG repo
