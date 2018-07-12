@@ -2,7 +2,7 @@
 #
 # VERSION               1.0.0
 
-FROM mbentley/suse12-build
+FROM opensuse
 MAINTAINER Michele Bologna <michele.bologna@suse.com>
 
 ARG repo
