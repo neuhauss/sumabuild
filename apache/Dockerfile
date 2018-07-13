@@ -3,7 +3,7 @@
 # VERSION               1.0.0
 
 FROM opensuse
-MAINTAINER Michele Bologna <michele.bologna@suse.com>
+
 
 ARG repo
 ARG cert
