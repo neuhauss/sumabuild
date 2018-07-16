@@ -2,7 +2,7 @@
 #
 # VERSION               1.0.0
 
-FROM opensuse
+FROM darksheer/sles12
 
 
 ARG repo
