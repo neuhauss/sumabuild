@@ -15,7 +15,7 @@ RUN echo "$repo" > /etc/zypp/repos.d/susemanager:dockerbuild.repo
 ### End: These lines required for use with {productname}
 
 # Add the package script
-ADD add_packages.sh /root/add_packages.sh
+ADD add_packages.sh /add_packages.sh
 
 # Run the package script
 RUN /root/add_packages.sh
