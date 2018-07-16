@@ -14,10 +14,11 @@ RUN echo "$repo" > /etc/zypp/repos.d/susemanager:dockerbuild.repo
 
 ### End: These lines required for use with {productname}
 
-# Add the package script
-ADD /root/add_packages.sh
+# Add the package 
+ADD add_packages.sh /root/add_packages.sh
 
 # Run the package script
+RUN Wget https://github.com/neuhauss/sumabuild/edit/master/apache/add_packages.sh
 RUN /root/add_packages.sh
 
 ADD pub.conf /etc/apache2/conf.d/pub.conf
