@@ -14,12 +14,6 @@ RUN echo "$repo" > /etc/zypp/repos.d/susemanager:dockerbuild.repo
 
 ### End: These lines required for use with {productname}
 
-# Add the package 
-ADD add_packages.sh /root/add_packages.sh
-
-# Run the package script
-#RUN /root/add_packages.sh
-
 ADD pub.conf /etc/apache2/conf.d/pub.conf
 RUN mkdir -p /srv/www/htdocs/pub/
 ADD index.html /srv/www/htdocs/pub/index.html
