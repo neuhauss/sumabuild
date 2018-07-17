@@ -18,7 +18,7 @@ RUN echo "$repo" > /etc/zypp/repos.d/susemanager:dockerbuild.repo
 ADD add_packages.sh /root/add_packages.sh
 
 # Run the package script
-RUN /root/add_packages.sh
+#RUN /root/add_packages.sh
 
 ADD pub.conf /etc/apache2/conf.d/pub.conf
 RUN mkdir -p /srv/www/htdocs/pub/
