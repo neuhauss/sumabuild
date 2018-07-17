@@ -2,7 +2,7 @@
 #
 # VERSION               1.0.0
 
-FROM darksheer/sles12
+FROM vneuhauss/sles
 
 
 ARG repo
